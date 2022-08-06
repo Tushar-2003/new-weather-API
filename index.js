@@ -10,7 +10,7 @@ fetch(url)
     .then((data) => {
         let output = `
             <div>
-                <div style="color:black; width:12rem; background-color:white; border-radius: 10px;" class="p-3">        
+                <div style="color:black; width:12rem; background-color:white; border-radius: 10px;" class="p-3">
                     <p class="m-0" style="font-width:bold; font-size:2rem;">${data.location.name}</p>
                     <p class="m-0" style="font-width:bold; font-size:4rem;"> ${data.current.temp_c}<sup>°C</sup></p>
                 </div>
